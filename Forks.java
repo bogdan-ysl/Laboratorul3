@@ -7,7 +7,7 @@ public class Forks {
     public Forks(int number) {
         this.number = number;
         this.forks = new boolean[number]; // inițial toate furculițele sunt libere (false)
-        System.out.println("Furculițele au fost create!!!!!");
+        System.out.println("Furculițele au fost create!!!!!bogdan");
     }
 
     public synchronized boolean takeForks(int philosopherId) {
